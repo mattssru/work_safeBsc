@@ -34,8 +34,46 @@ error_reporting(E_ALL);
 </head>
 <body class="dark" style="font-family: 'Work Sans', sans-serif !important; padding-bottom: 10vh;">
 	<div class="container position-relative" >
-    <div class="d-flex align-items-center justify-content-between flex-column flex-md-row mb-5 pt-5">
-	  	<h1 class="headline text-white position-relative d-inline-flex mb-4 mb-md-0">Headline</h1>
+    <div class="mb-5 pt-5">
+	  	<h1 class="headline text-white position-relative d-inline-flex mb-4 mb-md-0">Referrals</h1>
+    </div>
+    <div class="box_referrals">
+      <div class="title_referrals text-center">
+        <h2 class="text-white">Grow Your SnapBlockC Family</h2>
+        <p class="mb-0">You don't have any referrals yet.</p>
+        <img src="dist/images/img_user.svg" alt="" class="my-4">
+        <p>You and your friend will each get 300 point when they connect their first portfolio or deposit into SnapBlockC wallet</p>
+        <a href="" class="d-block mb-4">LEARN MORE</a>
+      </div>
+      <div class="copy_clipboard mb-4">
+        <p class="mb-1 ml-1">My referral link:</p>
+        <div class="input-address text-gray">
+          <p class="mb-0 text-truncate id="wallet_address">https://snapblockc.com/dashboard</p>
+          <button type="button" class="btn ml-4 btn-copy d-block p-0" onclick="copyToClipboard('#wallet_address')">
+            <img src="./dist/images/copy-address.svg" alt="">
+          </button>
+        </div>
+      </div>
+      <div class="list_referrls">
+        <div class="top_list mb-4 d-flex align-items-center justify-content-between">
+          <p class="mb-0">People Referred(1/1)</p>
+          <p class="mb-0">Status</p>
+        </div>
+        <div class="list_active d-flex align-items-center justify-content-between">
+          <div class="d-flex align-items-center">
+            <img src="dist/images/email.png" alt="" width="25" height="25" class="mr-2">
+            <p class="mb-0 text-white">ball.js******</p>
+          </div>
+          <div class="text-success">Active</div>
+        </div>
+        <div class="list_active d-flex align-items-center justify-content-between">
+          <div class="d-flex align-items-center">
+            <img src="dist/images/email.png" alt="" width="25" height="25" class="mr-2">
+            <p class="mb-0 text-white">ball.js******</p>
+          </div>
+          <div class="text-secondary">Pending to connect / deposit</div>
+        </div>
+      </div>
     </div>
 	</div>
 	<!-- Optional JavaScript -->

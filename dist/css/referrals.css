@@ -1,2 +1,51 @@
 @charset "UTF-8";
 
+.copy_clipboard{
+  max-width: 600px;
+  margin: 0 auto;
+}
+.input-address{
+  padding: 0 20px 0 20px;
+  height: 40px;
+  background-color: #2a2e39;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.input-address p{
+  color: #cccccc;
+  font-weight: 100;
+}
+.box_referrals p{
+  color: #cccccc;
+}
+.title_referrals{
+  max-width: 520px;
+  margin: 0 auto;
+}
+.title_referrals a{
+  color: #efb90a;
+  text-decoration: underline;
+}
+.top_list p{
+  color: #cccccc;
+  font-size: 14px;
+}
+.list_referrls{
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: #2a2e39;
+  border-radius: 10px;
+  padding: 15px 20px;
+}
+.list_referrls .list_active{
+  margin-bottom: 15px;
+}
+.list_referrls .list_active:last-child{
+  margin-bottom: 0;
+}
+.list_active img{
+  border-radius: 100%;
+}
