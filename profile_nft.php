@@ -21,7 +21,7 @@ error_reporting(E_ALL);
     <link rel="stylesheet" href="dist/plugins/bootstrap-select/bootstrap-select.css">
     <link rel="stylesheet" href="./dist/jquery.confirm/jquery.confirm.css">
     <link rel="stylesheet" href="dist/css/main.min.css?v=<?=filemtime('dist/css/main.min.css');?>">
-    <link rel="stylesheet" href="dist/css/profile.css?v=<?=filemtime('dist/css/profile.css');?>">
+    <link rel="stylesheet" href="dist/css/global.css?v=<?=filemtime('dist/css/global.css');?>">
     <link rel="stylesheet" href="dist/css/theme.css?v=<?=filemtime('dist/css/theme.css');?>">
 	  <link href="dist/plugins/bootstrap4-toggle/css/bootstrap4-toggle.min.css" rel="stylesheet">
 	
@@ -41,9 +41,6 @@ error_reporting(E_ALL);
   </script>
 </head>
 <body class="dark" style="font-family: 'Work Sans', sans-serif !important; padding-bottom: 10vh;">
-	<div class="container-fluid px-0">
-		<?php include('layers/header.php');?>
-	</div>
 	<div class="container position-relative" >
   <div class="alert alert_copy text-white" id="alert_address" role="alert">
     Address copied to clipboard !

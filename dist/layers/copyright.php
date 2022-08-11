@@ -1,0 +1,1 @@
+<a class="text-white" href="https://safebsc.finance/">Mr.ball</a>. © 2022 All rights reserved. 
