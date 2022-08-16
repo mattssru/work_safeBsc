@@ -88,25 +88,6 @@ body .container {
   height: 100%;
   background-color: #efb90a;
 }
-.card-nfts{
-  border-radius: 8px;
-  border: 1px solid rgba(248, 249,250,.15);
-  padding: 1rem;
-  cursor: pointer;
-}
-.card-nfts.active{
-  border-color: green !important;
-}
-.card-nfts h5{
-  font-weight: 700;
-}
-.card-nfts img{
-  border-radius: 8px;
-}
-.card-nfts > img{
-  height: 200px;
-  object-fit: cover;
-}
 .exp-profile{
   height: 20px;
   width: 100%;
@@ -253,9 +234,6 @@ body .container {
 .table_wallet tbody tr td:first-child{
   font-weight: 700;
 }
-.collapse_claim{
-  margin-top: 30px;
-}
 /*defi*/
 
 /*claim_nft*/
@@ -263,6 +241,7 @@ body .container {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  border-radius: 12px;
 }
 .card_claim{
   display: grid;
@@ -282,10 +261,41 @@ body .container {
   font-size: 14px;
   align-items: center;
   justify-content: center;
+  max-width: 145px;
+  width: 100%;
+  margin: 0 auto;
 }
 .btn_claim:hover{
   background-color: #888;
   color: #fff;
+}
+.total_claim{
+  font-weight: 700;
+  font-size: 20px;
+}
+.card-nfts{
+  border-radius: 8px;
+  border: 1px solid rgba(248, 249,250,.15);
+  padding: 1rem;
+  cursor: pointer;
+  margin-bottom: 30px;
+}
+.card-nfts.active{
+  border-color:#6ccf59 !important;
+  background-color: rgba(108, 207, 89, 0.1);
+}
+.card-nfts h5{
+  font-weight: 700;
+}
+.card-nfts img{
+  border-radius: 8px;
+}
+.card-nfts > img{
+  height: 200px;
+  object-fit: cover;
+}
+.collapse_claim{
+  margin-bottom: 30px;
 }
 /*claim_nft*/
 
@@ -306,6 +316,9 @@ body .container {
   .exp-profile{width:100%;}
   .name-profile{text-align: center;}
   .image-profile{margin-right: 0 !important; margin-bottom: 20px; width: 150px; height: 150px;}
+  .total_claim{font-size: 16px;}
+  .collapse_claim .card-body{padding: 10px;}
+  .img_coupon img{border-radius: 4px;}
 }
 @media (max-width: 539px){
   .total_more{grid-template-columns: repeat(1, 1fr);}
