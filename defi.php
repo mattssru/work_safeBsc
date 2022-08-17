@@ -114,56 +114,240 @@ error_reporting(E_ALL);
             </div>
           </div>
           <div class="tab-pane fade show active" id="my-defi" role="tabpanel" aria-labelledby="#my-defi">
-            <div class="head_wallet">
-              <img src="dist/images/wallet.png" alt="" class="mr-2" width="25" height="25">
-              Wallet
+            <div class="mb-4">
+              <div class="topic_head d-flex align-items-center">
+                <img src="dist/images/wallet.png" alt="" class="mr-2" width="25" height="25">
+                Wallet
+              </div>
+              <div class="table_wallet">
+                <table class="table mb-0">
+                  <thead>
+                    <tr>
+                      <th width="40%">ASSET</th>
+                      <th>BALANCES</th>
+                      <th>PRICES</th>
+                      <th>VALUE</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>
+                        <div class="d-flex align-items-center text-white">
+                          <img src="dist/images/coin_luna.webp" alt="" width="24" height="24" class="mr-2">
+                          LUNA
+                        </div>
+                      </td>
+                      <td>1,227.71</td>
+                      <td>$2.15</td>
+                      <td>$2,639.57</td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <div class="d-flex align-items-center text-white">
+                          <img src="dist/images/coin_luna.webp" alt="" width="24" height="24" class="mr-2">
+                          LUNA
+                        </div>
+                      </td>
+                      <td>1,227.71</td>
+                      <td>$2.15</td>
+                      <td>$2,639.57</td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <div class="d-flex align-items-center text-white">
+                          <img src="dist/images/coin_luna.webp" alt="" width="24" height="24" class="mr-2">
+                          LUNA
+                        </div>
+                      </td>
+                      <td>1,227.71</td>
+                      <td>$2.15</td>
+                      <td>$2,639.57</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
             </div>
-            <div class="table_wallet">
-              <table class="table mb-0">
-                <thead>
-                  <tr>
-                    <th width="40%">ASSET</th>
-                    <th>BALANCES</th>
-                    <th>PRICES</th>
-                    <th>VALUE</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td>
-                      <div class="d-flex align-items-center text-white">
-                        <img src="dist/images/coin_luna.webp" alt="" width="24" height="24" class="mr-2">
-                        LUNA
-                      </div>
-                    </td>
-                    <td>1,227.71</td>
-                    <td>$2.15</td>
-                    <td>$2,639.57</td>
-                  </tr>
-                  <tr>
-                    <td>
-                      <div class="d-flex align-items-center text-white">
-                        <img src="dist/images/coin_luna.webp" alt="" width="24" height="24" class="mr-2">
-                        LUNA
-                      </div>
-                    </td>
-                    <td>1,227.71</td>
-                    <td>$2.15</td>
-                    <td>$2,639.57</td>
-                  </tr>
-                  <tr>
-                    <td>
-                      <div class="d-flex align-items-center text-white">
-                        <img src="dist/images/coin_luna.webp" alt="" width="24" height="24" class="mr-2">
-                        LUNA
-                      </div>
-                    </td>
-                    <td>1,227.71</td>
-                    <td>$2.15</td>
-                    <td>$2,639.57</td>
-                  </tr>
-                </tbody>
-              </table>
+            <div class="mb-4">
+              <div class="topic_head d-flex align-items-center">
+                <div class="d-flex align-items-center">
+                  <img src="dist/images/pangolin.png" alt="" class="mr-2" width="25" height="25">
+                  <p class="mb-0">Pangolin</p>
+                </div>
+                <div class="text_farms d-flex align-items-center justify-content-center ml-4">Farms</div>
+              </div>
+              <div class="secondary_head d-flex align-items-center">
+              </div>
+              <div class="table_wallet">
+                <table class="table mb-0">
+                  <thead>
+                    <tr>
+                      <th>POOL</th>
+                      <th class="text-right">BALANCES</th>
+                      <th class="text-right">REWARDS</th>
+                      <th class="text-right">VALUE</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>
+                        <div class="d-flex align-items-center text-white">
+                          <div class="duo_coin d-flex">
+                            <img src="dist/images/usdc_coin.png" alt="">
+                            <img src="dist/images/eth_coin.png" alt="">
+                          </div>
+                          <div class="ml-2">USDC-ETH LP</div>
+                        </div>
+                      </td>
+                      <td class="text-right">
+                        <div class="farm_balance">
+                          <div>
+                            0.12432 
+                            <span style="color:#b6b4bb;" class="font-bold">PANGOLIN</span>
+                            <span>($1.55)</span>
+                          </div>
+                          <div>
+                            0.12432 
+                            <span style="color:#b6b4bb;" class="font-bold">ETH</span>
+                            <span>($255.4)</span>
+                          </div>
+                          <div class="text-success font-bold">$255.3</div>
+                        </div>
+                      </td>
+                      <td class="text-right">
+                        <div>0.12432 <span style="color:#b6b4bb;" class="font-bold">PANGOLIN</span></div>
+                        <div class="text-danger font-bold">$14.65</div>
+                      </td>
+                      <td class="text-right">
+                        <div class="text-success font-bold">$2,639.57</div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <div class="d-flex align-items-center text-white">
+                          <div class="duo_coin d-flex">
+                            <img src="dist/images/usdc_coin.png" alt="">
+                            <img src="dist/images/eth_coin.png" alt="">
+                          </div>
+                          <div class="ml-2">USDC-ETH LP</div>
+                        </div>
+                      </td>
+                      <td class="text-right">
+                        <div class="farm_balance">
+                          <div>
+                            0.12432 
+                            <span style="color:#b6b4bb;" class="font-bold">PANGOLIN</span>
+                            <span>($1.55)</span>
+                          </div>
+                          <div>
+                            0.12432 
+                            <span style="color:#b6b4bb;" class="font-bold">ETH</span>
+                            <span>($255.4)</span>
+                          </div>
+                          <div class="text-success font-bold">$255.3</div>
+                        </div>
+                      </td>
+                      <td class="text-right">
+                        <div>0.12432 <span style="color:#b6b4bb;" class="font-bold">PANGOLIN</span></div>
+                        <div class="text-danger font-bold">$14.65</div>
+                      </td>
+                      <td class="text-right">
+                        <div class="text-success font-bold">$2,639.57</div>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <div class="mb-5">
+              <div class="topic_head d-flex align-items-center">
+                <div class="d-flex align-items-center">
+                  <img src="dist/images/shiba.png" alt="" class="mr-2" width="25" height="25">
+                  <p class="mb-0">Shibaswap</p>
+                </div>
+                <div class="text_farms d-flex align-items-center justify-content-center ml-4">Farms</div>
+              </div>
+              <div class="secondary_head d-flex align-items-center">
+              </div>
+              <div class="table_wallet">
+                <table class="table mb-0">
+                  <thead>
+                    <tr>
+                      <th>POOL</th>
+                      <th class="text-right">BALANCES</th>
+                      <th class="text-right">REWARDS</th>
+                      <th class="text-right">VALUE</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>
+                        <div class="d-flex align-items-center text-white">
+                          <div class="duo_coin d-flex">
+                            <img src="dist/images/shiba_coin.webp" alt="">
+                            <img src="dist/images/eth_coin.png" alt="">
+                          </div>
+                          <div class="ml-2">SHIBA-ETH LP</div>
+                        </div>
+                      </td>
+                      <td class="text-right">
+                        <div class="farm_balance">
+                          <div>
+                            0.12432 
+                            <span style="color:#b6b4bb;" class="font-bold">SHIBA</span>
+                            <span>($1.55)</span>
+                          </div>
+                          <div>
+                            0.12432 
+                            <span style="color:#b6b4bb;" class="font-bold">ETH</span>
+                            <span>($255.4)</span>
+                          </div>
+                          <div class="text-success font-bold">$255.3</div>
+                        </div>
+                      </td>
+                      <td class="text-right">
+                        <div>0.12432 <span style="color:#b6b4bb;" class="font-bold">PANGOLIN</span></div>
+                        <div class="text-success font-bold">$14.65</div>
+                      </td>
+                      <td class="text-right">
+                        <div class="text-success font-bold">$2,639.57</div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class="text-right">
+                        <div class="d-flex align-items-center text-white">
+                          <div class="duo_coin d-flex">
+                            <img src="dist/images/shiba_coin.webp" alt="">
+                            <img src="dist/images/eth_coin.png" alt="">
+                          </div>
+                          <div class="ml-2">SHIBA-ETH LP</div>
+                        </div>
+                      </td>
+                      <td class="text-right">
+                        <div class="farm_balance">
+                          <div>
+                            0.12432 
+                            <span style="color:#b6b4bb;" class="font-bold">SHIBA</span>
+                            <span>($1.55)</span>
+                          </div>
+                          <div>
+                            0.12432 
+                            <span style="color:#b6b4bb;" class="font-bold">ETH</span>
+                            <span>($255.4)</span>
+                          </div>
+                          <div class="text-success font-bold">$255.3</div>
+                        </div>
+                      </td>
+                      <td class="text-right">
+                        <div>0.12432 <span style="color:#b6b4bb;" class="font-bold">PANGOLIN</span></div>
+                        <div class="text-danger font-bold">$14.65</div>
+                      </td>
+                      <td class="text-right">
+                        <div class="text-success font-bold">$2,639.57</div>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
             </div>
           </div>
         </div>

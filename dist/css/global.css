@@ -198,32 +198,33 @@ body .container {
   border-radius: 0.4rem;
   padding: 24px 20px;
 }
-.head_wallet{
+.topic_head{
   font-size: 18px;
   font-weight: 700;
   color: #fff;
-  min-height: 52px;
-  display: flex;
-  align-items: center;
+  min-height: 55px;
   padding: 0 16px;
-  border: 1px solid rgb(255 255 255 / 9%);
+  border: 1px solid rgba(248, 249,250,.15);
   border-radius: 10px 10px 0 0;
   border-bottom: 0;
 }
 .table_wallet{
-  border: 1px solid rgb(255 255 255 / 9%);
+  border: 1px solid rgba(248, 249,250,.15);
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
 }
 .table_wallet thead tr th{
   color: #fff;
-  font-size: 15px;
+  font-size: 12px;
+  font-weight: 700;
   background-color: #32383e;
   border: none;
   padding: 0px 0.75rem;
   vertical-align: middle;
-  height: 42px;
+  height: 32px;
 }
 .table_wallet tbody tr td{
-  border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+  border-bottom: 1px solid rgba(248, 249,250,.15);
   border-top: 0;
   color: #fff;
   font-size: 14px;
@@ -232,6 +233,33 @@ body .container {
   border-bottom: 0;
 }
 .table_wallet tbody tr td:first-child{
+  font-weight: 700;
+}
+.table_wallet tbody tr:last-child td:first-child{
+  border-bottom-left-radius: 10px;
+}
+.table_wallet tbody tr:last-child td:last-child{
+  border-bottom-right-radius: 10px;
+}
+.text_farms{
+  font-weight: 700;
+  background-color: rgb(254 247 154 / 10%);
+  color: #efb90a;
+  border-radius: 6px;
+  min-width: 75px;
+  height: 30px;
+}
+.duo_coin img{
+  width: 22px;
+  height: 22px;
+  border-radius: 100%;
+  background-color: #fff;
+  padding: 1px;
+}
+.duo_coin img:nth-child(2){
+  margin-left: -8px;
+}
+.font-bold{
   font-weight: 700;
 }
 /*defi*/

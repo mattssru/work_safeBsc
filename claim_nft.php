@@ -88,33 +88,6 @@ error_reporting(E_ALL);
             </div>
           </div>
         </div>
-        <div class="order-7 order-md-5 col-md-4 col-sm-6 col-xs-12">
-          <div class="card-nfts card" data-toggle="collapse" data-target="#collapseFour" aria-expanded="true" aria-controls="collapseOne">
-            <img class="card-img-top" src="./dist/images/nfts_1.png" alt="Card image cap">
-            <div class="card-body p-0 mt-3">
-                <h5 class="card-title mb-0">Nfts_1</h5>
-                <!-- <button type="button" class="btn btn-primary w-100">Claim</button> -->
-            </div>
-          </div>
-        </div>
-        <div class="order-9 order-md-6 col-md-4 col-sm-6 col-xs-12">
-          <div class="card-nfts card" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseTwo">
-            <img class="card-img-top" src="./dist/images/nfts_2.jpeg" alt="Card image cap">
-            <div class="card-body p-0 mt-3">
-                <h5 class="card-title mb-0">Nfts_2</h5>
-                <!-- <button type="button" class="btn btn-primary w-100">Claim</button> -->
-            </div>
-          </div>
-        </div>
-        <div class="order-11 order-md-7 col-md-4 col-sm-6 col-xs-12">
-          <div class="card-nfts card" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseThree">
-            <img class="card-img-top" src="./dist/images/nfts_3.jpeg" alt="Card image cap">
-            <div class="card-body p-0 mt-3">
-                <h5 class="card-title mb-0">Nfts_3</h5>
-                <!-- <button type="button" class="btn btn-primary w-100">Claim</button> -->
-            </div>
-          </div>
-        </div>
           <!-- box 1-->
         <div class="order-2 order-md-4 col-12 collapse collapse_claim" id="collapseOne" aria-labelledby="headingOne"
             data-parent="#accordion">
@@ -196,86 +169,6 @@ error_reporting(E_ALL);
             </div>
         </div>
           <!-- more 3-->
-          <!-- box 1-->
-        <div class="order-8 order-md-9 col-12 collapse collapse_claim" id="collapseFour" aria-labelledby="headingOne"
-            data-parent="#accordion">
-            <div class="card card-body">
-                <div class="card_claim align-items-center">
-                    <div class="img_coupon">
-                        <img src="dist/images/coupon_1.jpeg" alt="" width="300" height="200">
-                    </div>
-                    <div class="total_claim text-white text-center">3/50</div>
-                    <button type="butotn" class="btn btn_claim d-flex p-0">Claim</button>
-                </div>
-                <div class="card_claim align-items-center">
-                    <div class="img_coupon">
-                        <img src="dist/images/coupon_2.jpeg" alt="" width="300" height="200">
-                    </div>
-                    <div class="total_claim text-white text-center">3/50</div>
-                    <button type="butotn" class="btn btn_claim">Claim</button>
-                </div>
-                <div class="card_claim align-items-center">
-                    <div class="img_coupon">
-                        <img src="dist/images/coupon_3.jpeg" alt="" width="300" height="200">
-                    </div>
-                    <div class="total_claim text-white text-center">3/50</div>
-                    <button type="butotn" class="btn btn_claim">Claim</button>
-                </div>
-            </div>
-        </div>
-          <!--box2-->
-        <div class="order-10 order-md-10 col-12 collapse collapse_claim" id="collapseFive" aria-labelledby="headingTwo" data-parent="#accordion">
-            <div class="card card-body">
-                <div class="card_claim align-items-center">
-                    <div class="img_coupon">
-                    <img src="dist/images/coupon_1.jpeg" alt="" width="300" height="200">
-                    </div>
-                    <div class="total_claim text-white text-center">3/50</div>
-                    <button type="butotn" class="btn btn_claim d-flex p-0">Claim</button>
-                </div>
-                <div class="card_claim align-items-center">
-                    <div class="img_coupon">
-                    <img src="dist/images/coupon_2.jpeg" alt="" width="300" height="200">
-                    </div>
-                    <div class="total_claim text-white text-center">3/50</div>
-                    <button type="butotn" class="btn btn_claim">Claim</button>
-                </div>
-                <div class="card_claim align-items-center">
-                    <div class="img_coupon">
-                    <img src="dist/images/coupon_3.jpeg" alt="" width="300" height="200">
-                    </div>
-                    <div class="total_claim text-white text-center">3/50</div>
-                    <button type="butotn" class="btn btn_claim">Claim</button>
-                </div>
-            </div>
-        </div>
-          <!-- box 3-->
-        <div class="order-12 order-md-11 col-12 collapse collapse_claim" id="collapseSix" aria-labelledby="headingThree"
-                data-parent="#accordion">
-            <div class="card card-body">
-                <div class="card_claim align-items-center">
-                    <div class="img_coupon">
-                        <img src="dist/images/coupon_1.jpeg" alt="" width="300" height="200">
-                    </div>
-                    <div class="total_claim text-white text-center">3/50</div>
-                    <button type="butotn" class="btn btn_claim d-flex p-0">Claim</button>
-                </div>
-                <div class="card_claim align-items-center">
-                    <div class="img_coupon">
-                        <img src="dist/images/coupon_2.jpeg" alt="" width="300" height="200">
-                    </div>
-                    <div class="total_claim text-white text-center">3/50</div>
-                    <button type="butotn" class="btn btn_claim">Claim</button>
-                </div>
-                <div class="card_claim align-items-center">
-                    <div class="img_coupon">
-                        <img src="dist/images/coupon_3.jpeg" alt="" width="300" height="200">
-                    </div>
-                    <div class="total_claim text-white text-center">3/50</div>
-                    <button type="butotn" class="btn btn_claim">Claim</button>
-                </div>
-            </div>
-        </div>
       </div>
     </div>
 	</div>
