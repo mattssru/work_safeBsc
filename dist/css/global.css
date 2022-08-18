@@ -248,6 +248,8 @@ body .container {
   border-radius: 6px;
   min-width: 75px;
   height: 30px;
+  font-size: 14px;
+  padding: 0 13px;
 }
 .duo_coin img{
   width: 22px;
@@ -261,6 +263,17 @@ body .container {
 }
 .font-bold{
   font-weight: 700;
+}
+.show_mobile{
+  display: none;
+}
+.show_desktop{
+  display: table-cell;
+}
+.show_mobile > p{
+  font-weight: 700;
+  font-size: 14px;
+  /* color: rgb(173, 173, 173); */
 }
 /*defi*/
 
@@ -327,6 +340,11 @@ body .container {
 }
 /*claim_nft*/
 
+.matt{
+  display: grid;
+  gap: 5rem;
+  grid-template-columns: repeat(3, 1fr);
+}
 @media (max-width: 768px) {
   .input-address{max-width: 100%;}
   .title-profile{
@@ -338,6 +356,8 @@ body .container {
   }
 }
 @media (max-width: 767px) {
+  .show_desktop{display: none;}
+  .show_mobile{display: block;}
   .list-tabs li{width: 50%;}
   .box-user{flex-direction: column;}
   .box-user .name-profile{width: 100%;}

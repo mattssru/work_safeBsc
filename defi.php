@@ -173,7 +173,7 @@ error_reporting(E_ALL);
                   <img src="dist/images/pangolin.png" alt="" class="mr-2" width="25" height="25">
                   <p class="mb-0">Pangolin</p>
                 </div>
-                <div class="text_farms d-flex align-items-center justify-content-center ml-4">Farms</div>
+                <div class="text_farms d-flex align-items-center justify-content-center ml-4">1 Pangolin = $1.5</div>
               </div>
               <div class="secondary_head d-flex align-items-center">
               </div>
@@ -182,8 +182,8 @@ error_reporting(E_ALL);
                   <thead>
                     <tr>
                       <th>POOL</th>
-                      <th class="text-right">BALANCES</th>
-                      <th class="text-right">REWARDS</th>
+                      <th class="text-right show_desktop">BALANCES</th>
+                      <th class="text-right show_desktop">REWARDS</th>
                       <th class="text-right">VALUE</th>
                     </tr>
                   </thead>
@@ -197,8 +197,24 @@ error_reporting(E_ALL);
                           </div>
                           <div class="ml-2">USDC-ETH LP</div>
                         </div>
+                        <div class="show_mobile mt-4">
+                          <p class="mb-1">Balances</p>
+                          <div class="farm_balance">
+                            <div>
+                              0.12432 
+                              <span style="color:#b6b4bb;" class="font-bold">PANGOLIN</span>
+                              <span>($1.55)</span>
+                            </div>
+                            <div>
+                              0.12432 
+                              <span style="color:#b6b4bb;" class="font-bold">ETH</span>
+                              <span>($255.4)</span>
+                            </div>
+                            <div class="text-success font-bold">$255.3</div>
+                          </div>
+                        </div>
                       </td>
-                      <td class="text-right">
+                      <td class="text-right show_desktop">
                         <div class="farm_balance">
                           <div>
                             0.12432 
@@ -213,12 +229,17 @@ error_reporting(E_ALL);
                           <div class="text-success font-bold">$255.3</div>
                         </div>
                       </td>
-                      <td class="text-right">
+                      <td class="text-right show_desktop">
                         <div>0.12432 <span style="color:#b6b4bb;" class="font-bold">PANGOLIN</span></div>
                         <div class="text-danger font-bold">$14.65</div>
                       </td>
                       <td class="text-right">
                         <div class="text-success font-bold">$2,639.57</div>
+                        <div class="show_mobile mt-4">
+                          <p class="mb-1">Rewards</p>
+                          <div>0.12432 <span style="color:#b6b4bb;" class="font-bold">PANGOLIN</span></div>
+                          <div class="text-danger font-bold">$14.65</div>
+                        </div>
                       </td>
                     </tr>
                     <tr>
@@ -230,8 +251,24 @@ error_reporting(E_ALL);
                           </div>
                           <div class="ml-2">USDC-ETH LP</div>
                         </div>
+                        <div class="show_mobile mt-4">
+                          <p class="mb-1">Balances</p>
+                          <div class="farm_balance">
+                            <div>
+                              0.12432 
+                              <span style="color:#b6b4bb;" class="font-bold">PANGOLIN</span>
+                              <span>($1.55)</span>
+                            </div>
+                            <div>
+                              0.12432 
+                              <span style="color:#b6b4bb;" class="font-bold">ETH</span>
+                              <span>($255.4)</span>
+                            </div>
+                            <div class="text-success font-bold">$255.3</div>
+                          </div>
+                        </div>
                       </td>
-                      <td class="text-right">
+                      <td class="text-right show_desktop">
                         <div class="farm_balance">
                           <div>
                             0.12432 
@@ -246,12 +283,17 @@ error_reporting(E_ALL);
                           <div class="text-success font-bold">$255.3</div>
                         </div>
                       </td>
-                      <td class="text-right">
+                      <td class="text-right show_desktop">
                         <div>0.12432 <span style="color:#b6b4bb;" class="font-bold">PANGOLIN</span></div>
                         <div class="text-danger font-bold">$14.65</div>
                       </td>
                       <td class="text-right">
                         <div class="text-success font-bold">$2,639.57</div>
+                        <div class="show_mobile mt-4">
+                          <p class="mb-1">Rewards</p>
+                          <div>0.12432 <span style="color:#b6b4bb;" class="font-bold">PANGOLIN</span></div>
+                          <div class="text-danger font-bold">$14.65</div>
+                        </div>
                       </td>
                     </tr>
                   </tbody>
@@ -264,7 +306,7 @@ error_reporting(E_ALL);
                   <img src="dist/images/shiba.png" alt="" class="mr-2" width="25" height="25">
                   <p class="mb-0">Shibaswap</p>
                 </div>
-                <div class="text_farms d-flex align-items-center justify-content-center ml-4">Farms</div>
+                <div class="text_farms d-flex align-items-center justify-content-center ml-4">1 SHIBA = $0.4</div>
               </div>
               <div class="secondary_head d-flex align-items-center">
               </div>
@@ -273,8 +315,8 @@ error_reporting(E_ALL);
                   <thead>
                     <tr>
                       <th>POOL</th>
-                      <th class="text-right">BALANCES</th>
-                      <th class="text-right">REWARDS</th>
+                      <th class="text-right show_desktop">BALANCES</th>
+                      <th class="text-right show_desktop">REWARDS</th>
                       <th class="text-right">VALUE</th>
                     </tr>
                   </thead>
@@ -288,8 +330,24 @@ error_reporting(E_ALL);
                           </div>
                           <div class="ml-2">SHIBA-ETH LP</div>
                         </div>
+                        <div class="show_mobile mt-4">
+                          <p class="mb-1">Balances</p>
+                          <div class="farm_balance">
+                            <div>
+                              0.12432 
+                              <span style="color:#b6b4bb;" class="font-bold">SHIBA</span>
+                              <span>($1.55)</span>
+                            </div>
+                            <div>
+                              0.12432 
+                              <span style="color:#b6b4bb;" class="font-bold">ETH</span>
+                              <span>($255.4)</span>
+                            </div>
+                            <div class="text-success font-bold">$255.3</div>
+                          </div>
+                        </div>
                       </td>
-                      <td class="text-right">
+                      <td class="text-right show_desktop">
                         <div class="farm_balance">
                           <div>
                             0.12432 
@@ -304,16 +362,21 @@ error_reporting(E_ALL);
                           <div class="text-success font-bold">$255.3</div>
                         </div>
                       </td>
-                      <td class="text-right">
-                        <div>0.12432 <span style="color:#b6b4bb;" class="font-bold">PANGOLIN</span></div>
-                        <div class="text-success font-bold">$14.65</div>
+                      <td class="text-right show_desktop">
+                        <div>0.12432 <span style="color:#b6b4bb;" class="font-bold">SHIBA</span></div>
+                        <div class="text-danger font-bold">$14.65</div>
                       </td>
                       <td class="text-right">
                         <div class="text-success font-bold">$2,639.57</div>
+                        <div class="show_mobile mt-4">
+                          <p class="mb-1">Rewards</p>
+                          <div>0.12432 <span style="color:#b6b4bb;" class="font-bold">SHIBA</span></div>
+                          <div class="text-danger font-bold">$14.65</div>
+                        </div>
                       </td>
                     </tr>
                     <tr>
-                      <td class="text-right">
+                      <td>
                         <div class="d-flex align-items-center text-white">
                           <div class="duo_coin d-flex">
                             <img src="dist/images/shiba_coin.webp" alt="">
@@ -321,8 +384,24 @@ error_reporting(E_ALL);
                           </div>
                           <div class="ml-2">SHIBA-ETH LP</div>
                         </div>
+                        <div class="show_mobile mt-4">
+                          <p class="mb-1">Balances</p>
+                          <div class="farm_balance">
+                            <div>
+                              0.12432 
+                              <span style="color:#b6b4bb;" class="font-bold">SHIBA</span>
+                              <span>($1.55)</span>
+                            </div>
+                            <div>
+                              0.12432 
+                              <span style="color:#b6b4bb;" class="font-bold">ETH</span>
+                              <span>($255.4)</span>
+                            </div>
+                            <div class="text-success font-bold">$255.3</div>
+                          </div>
+                        </div>
                       </td>
-                      <td class="text-right">
+                      <td class="text-right show_desktop">
                         <div class="farm_balance">
                           <div>
                             0.12432 
@@ -337,12 +416,17 @@ error_reporting(E_ALL);
                           <div class="text-success font-bold">$255.3</div>
                         </div>
                       </td>
-                      <td class="text-right">
-                        <div>0.12432 <span style="color:#b6b4bb;" class="font-bold">PANGOLIN</span></div>
+                      <td class="text-right show_desktop">
+                        <div>0.12432 <span style="color:#b6b4bb;" class="font-bold">SHIBA</span></div>
                         <div class="text-danger font-bold">$14.65</div>
                       </td>
                       <td class="text-right">
                         <div class="text-success font-bold">$2,639.57</div>
+                        <div class="show_mobile mt-4">
+                          <p class="mb-1">Rewards</p>
+                          <div>0.12432 <span style="color:#b6b4bb;" class="font-bold">SHIBA</span></div>
+                          <div class="text-danger font-bold">$14.65</div>
+                        </div>
                       </td>
                     </tr>
                   </tbody>
